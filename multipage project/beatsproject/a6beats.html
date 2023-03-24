@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beatsproject</title>
+    <style>
+        *{
+            background-color: #0f0f10;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: 0;
+        }
+.beatslogo{
+    
+    height: 25px;
+    margin-left: 150px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+  
+    padding: 30px o;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 70px;
+   
+}
+nav ul li {
+    margin-right: 40px;
+}
+nav ul li :first-child a {
+    font-weight: 700;
+    font-size: 30px;
+}
+nav ul li a {
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+.ul{
+    display: flex;
+  
+   }
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.nav-right-section{
+    display: flex;
+    align-items: center;
+}
+
+
+.button{
+    background: #1e1e21;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 8px;
+    padding: 10px 40px;
+    box-shadow: -1px -1px 2px  ;
+    cursor: pointer;
+  
+}
+.mainimg{
+    width: 230px;
+    position: relative;
+    top: -180px;
+    left: 400px;
+}
+.main{
+    margin-left: 180px;
+   
+}
+main{
+    display: flex;
+  
+}
+.onearimg{
+    width: 320px;
+    margin-left: 350px;
+    margin-top: 80px;
+}
+.main h1{
+    font-weight: 600;
+    font-size: 46px;
+    margin-bottom: 25px;
+    color: white;
+    margin-left: 320px;
+    margin-top: 10px;
+}
+.main h4{
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: white;
+    margin-left: 320px;
+}
+.main p{
+    width: 65%;
+    font-size: 14px;
+    font-weight: 300;
+    color: #bdc0c2;
+    line-height: 25px;
+    margin-bottom: 25px;
+    margin-left: 320px;
+   
+    
+}
+.shopping-bag-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #1e1e21;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 10px 25px;
+   margin-left: 320px;
+}
+.shopping-bag-section img{
+  
+  
+    background-color: transparent;
+}
+.shopping-bag-section p{
+    margin-bottom: 0;
+    color: white;
+    background-color: transparent;
+    margin-left: 0px;
+
+}
+.shopping-bag-section span{
+    background-color: transparent;
+    color: white;
+}
+.social-media-section{
+display: flex;
+gap: 100px;
+justify-content: center;
+height: 25px;
+}
+.specification{
+    align-items: center;
+    flex-direction: column;
+    
+}
+.specification-logo,.case-logo{
+    scale: 0.8;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+.specification-list-items div p{
+    font-size: 12px;
+    color:  whitesmoke;
+    margin: 10px;
+}
+
+.bluetooth{
+    margin-left: 400px;
+    margin-bottom: 30px;
+}
+.battery{
+    margin-left: 350px;
+    margin-bottom: 30px;
+}
+.charger{
+    margin-left: 350px;
+    margin-bottom: 30px;
+}
+.mic{
+    margin-left: 400px;
+    margin-bottom: 30px;
+}
+.specification-list-items main{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+.specification-list{
+    display: flex;
+    gap: 50px;
+}
+.case-item{
+    color: #bdc0c2;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+   gap: 60px;
+   line-height: 1.8;
+}
+.case-item div p:last-child{
+    display: inline;
+    margin-left: 20px;
+    gap: 20px;
+   
+}
+.button2{
+    
+    align-items: center;
+    gap: 20px;
+    background: #1e1e21;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 10px 25px;
+    margin-top: 10px;
+}
+.button2 p{
+    background: transparent;
+}
+.button2 img{
+    margin-bottom: -6px;
+}
+.buy-product{
+    background-color: #1e1e21;
+    color: white;
+    align-items: center;
+    background: #181a1b;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 100px;
+    padding: 40px 0;
+}
+.buy-product div div{
+  width: fit-content;
+  background: #000000;
+    display: flex;
+    padding: 8px 30px;
+    gap: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.buy-product div,
+.buy-product p,
+.buy-product h3,
+.buy-product img{
+  background-color: transparent;
+}
+.buy-product div p{
+    color: #bdc0c2;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.buy-product div h3{
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.buy-product main {
+    align-items: center;
+    justify-content: center;
+    padding: 20px 90px;
+    background-color: black;
+}
+.buy-product div div p{
+    color: white;
+    margin-top: 10px;
+}
+/* designing product section */
+.product img{
+   /* margin-left: 500px; */
+    margin-top: 100px;
+   
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    
+}
+.product-logo{
+    display: flex;
+    flex-direction: column;
+    scale: 0.3;
+}
+.product-items{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 50px;
+   
+}
+.product-card{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    background: #181a1b;
+    border-radius: 8px;
+    margin-left: 440px;
+    display: inline-table;
+    
+}
+.product-img{
+    width: 75px;
+    height: 100px;
+    position: absolute;
+    z-index: 100;
+    top: -135px;
+    left: 28px;
+    background-color: transparent;
+    
+}
+
+.background-img,
+.product-card p,
+.product-card span,
+.product-card img,
+.product-card div {
+    background-color: transparent;
+}
+
+.product-info{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.product-info p{
+    font-size: 12px;
+}
+.product-info p span{
+    color: #bdc0c2;
+}
+.product-info div{
+    background: #0a0a0b;
+    border-radius: 8px;
+    padding: 2px 6px;
+    
+}
+.product-info div img {
+    width: 13px;
+    height: 13px;
+    
+}
+.product div div p{
+    color: white;
+}
+.product main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    gap: 70px;
+    margin-top: -620px;
+}
+footer{
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+ ul li:first-child{
+     font-weight: 600;
+    font-size: 20px;
+    list-style: none;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+ul li a{
+    color: white;
+    gap: 10px;
+}
+ul li{
+   line-height: 30px;
+}
+.footer-subscription{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-subscription div:first-child{
+    background: #181A1B;
+    border-radius: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+.footer-subscription div:first-child input{
+    border: none;
+    background-color: transparent;
+}
+.subscribe-button{
+    background: #0A0A0B;
+    border-radius: 8PX;
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    color: white;
+ 
+    gap: 10px;
+}
+.arrow-up{
+    margin-top: -80px;
+}
+
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <img class="beatslogo" src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Photos/beatsLogo.png" alt="beatslogo">
+     <div class="nav-right-section">
+        <ul class="ul">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Specs</a></li>
+            <li><a href="#">Class</a></li>
+            <li><a href="#">Products</a></li>
+        </ul>
+           <button class="button">Shop</button>
+    </div>
+    </nav>
+    <main>
+        <img class="mainimg" src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Photos/mainImage.png" alt="mainimg">
+        <div class="main">
+          <img class="onearimg" src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Photos/onEar.png" alt="onearimg">
+          <h1>Beats 3</h1>
+          <h4>Overview</h4>
+          <p>Enjoy award-winning Beats sound with <br> wireless lstening freedom and a sleek, <br> streamlined design with comfortable <br> padded earphones, delivering first-rate <br> playback. </p>
+         <div class="shopping-bag-section">
+            <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/shoppingBag.png" alt="shoppin bag">
+            <p>Add to Bag</p>
+            <span>N399K</span>
+         </div>
+        </div>
+    </main>
+    <section class="social-media-section">
+        <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Photos/appleLogo.png" alt="appleLogo">
+        <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Photos/spotifyLogo.png" alt="spotifylogo">
+        <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Photos/amazonLogo.png" alt="amazonlogo">
+        <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Photos/youtubeLogo.png" alt="youtubelogo">
+    </section>
+    <section class="specification">
+        <img class="specification-logo" src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/specsLogo.png" alt="specslogo">
+        <div class="specification-list">
+            <div class="specification-list-items">
+                <div class="bluetooth">
+                    <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/bluetooth.png" alt="bluetooth">
+                   <main>Connection</main>
+                    <p>Bluetooth v5.2</p>
+                </div>
+                <div class="battery" >
+                    <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/battery.png" alt="battery">
+                    <main>Battery</main>
+                    <p>Duration 40h</p>
+                </div>
+                <div class="charger">
+                    <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/charger.png" alt="charger">
+                    <main>Load</main>
+                    <p>Fast Charge 4.2-AAC</p>
+                </div >
+                <div class="mic">
+                    <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/mic.png" alt="mic">
+                    <main> Microphone </main>
+                    <p>Supports Apple Siri and Google</p>
+                </div>
+            </div>
+            <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Photos/specsImage.png" alt="specs-img">
+        </div>
+    </section>
+   
+    <img class="case-logo" src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/caseLogo.png" alt="case-logo">
+    <div class="case-item">
+        <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Photos/caseImage.png" alt="">
+       <div >
+         <p>With a comfortable and <br> adaptable case so that <br> you can store it whenever <br> you want, and keep your <br> durability forever. </p> 
+      <section class="button2"> <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/group.png" alt="grouppng">  <p>More Info</p></section>
+       </div>
+    </div>
+    <!-- section to allow a user to buy product -->
+    <section class="buy-product">
+        <div>
+            <h3>Immense yourself in <br> your music</h3>
+            <p>Buy Now, up to 40% off.</p>
+            <div>
+                <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/shoppingBag.png" alt="shopping bag">
+                <p>Buy Now</p>
+            </div>
+        </div>
+       
+        <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Photos/buyNowSectionImage.png" alt="buy now">
+       
+    </section>
+    <!-- creating a product section to display the items  -->
+    <section class="product">
+         <img class="product-logo" src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/productLogo.png" alt="logo">
+         
+         <!-- creating new division -->
+         <div class="product-card">
+            <img class="product-img" src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Photos/black.png" alt="black">
+            <div class="product-info">
+             <p>Black <br>
+                <span>N299K</span>
+            </p>
+                <div>
+                    <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/shoppingBag.png" alt="shopping bag">
+                </div>
+            
+            </div>
+         </div>
+      
+         <!-- creating card for product -->
+         <div class="product-card">
+            <img class="product-img" src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Photos/nightBlack.png" alt="night-black">
+            <div class="product-info">
+             <p> Night Black <br>
+                <span>N299K</span>
+            </p>
+                <div>
+                    <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/shoppingBag.png" alt="shopping bag">
+                </div>
+            
+            </div>
+         </div>
+    
+         <!-- creating card for product -->
+         <div class="product-card">
+            <img class="product-img" src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Photos/twilightGray.png" alt="blue">
+            <div class="product-info">
+             <p>Grey<br>
+                <span>N299K</span>
+            </p>
+                <div>
+                    <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/shoppingBag.png" alt="shopping bag">
+                </div>
+            
+            </div>
+         </div>
+          <main> <!-- creating card for product -->
+         <div class="product-card">
+            <img class="product-img" src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Photos/redBlack.png" alt="red black">
+            <div class="product-info">
+             <p> Red Black <br>
+                <span>N299K</span>
+            </p>
+                <div>
+                    <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/shoppingBag.png" alt="shopping bag">
+                </div>
+            
+            </div>
+         </div>
+               <!-- creating card for product -->
+          <div class="product-card">
+            <img class="product-img" src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Photos/blue.png" alt="blue">
+            <div class="product-info">
+             <p>Blue<br>
+                <span>N299K</span>
+            </p>
+                <div>
+                    <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/shoppingBag.png" alt="shopping bag">
+                </div>
+            
+            </div>
+         </div>
+         </main> 
+    </section>
+    <!-- designing the footer area of the website -->
+    <footer class="footer">
+        <img class="beatslogo" src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Photos/beatsLogo.png" alt="logo">
+        <!-- product navigation menu -->
+        <ul >
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Headphones</a></li>
+            <li><a href="#">Earphones</a></li>
+            <li><a href="#">Earbuds</a></li>
+            <li><a href="#">Accessories</a></li>
+        </ul>
+        <!-- creating the support navigation menu -->
+          <ul>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Product Help</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Updates</a></li>
+            <li><a href="#">Provides</a></li>
+        </ul>
+        <!-- adding subscribe and social media icon buttons -->
+        <div class="footer-subscription">
+            <!-- adding the division for subscribe -->
+           <div>
+            <input type="email" placeholder="Email">
+            <div class="subscribe-button">
+                <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/rightArrow.png" alt="rightArrow">
+                <p>Subscribe</p>
+            </div>
+           </div>
+           <!-- social media icons -->
+           <div>
+            <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/facebook.png" alt="facebook">
+            <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/twitter.png" alt="twitter">
+            <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/instagram.png" alt="instagram">
+            <img src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/linkedin.png" alt="Linkedin">
+           </div>
+        </div>
+        <!-- adding top arrow iconfor moving page top -->
+        <img class="arrow-up" src="/fullstackwebdevelopment-main/11 Feb 2023/Beats/Icons/upArrow.png" alt="uparrow">
+    </footer>
+</body>
+</html>
